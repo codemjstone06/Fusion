@@ -1,2 +1,75 @@
 @import "bootstrap";
 
+.navbar-inverse .navbar-brand {
+  color: #F2FA05;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.4px;
+  font-style: italic;
+}
+
+.navbar {
+  background: image_url('simple_dashed.png');
+}
+
+h1 {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.4px;
+  
+}
+
+h2 {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  
+}
+
+.hero {
+  background: image_url('hero1.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 440px;
+  box-shadow: 0px 3px 8px 3px #2a2a2a;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin: 0;
+}
+
+.frosty {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+
+}
+
+.frosty h1 {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 400;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+  color: #F2FA05;
+  font-style: italic;
+}
+
+.frosty h2 {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+  color: white;
+}
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+body {
+  background: image_url('bg.png');
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+
+}
+
