@@ -7,6 +7,6 @@ class CreateContacts < ActiveRecord::Migration[5.0]
       t.text :enquiry
       t.timestamps
     end
-    add_index :contacts
+    
   end
 end
